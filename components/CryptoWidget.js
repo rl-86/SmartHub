@@ -16,6 +16,7 @@ import {
 import RefreshIcon from '@mui/icons-material/Refresh';
 import Link from 'next/link';
 import IconButton from '@mui/icons-material/Refresh';
+import Image from 'next/image';
 
 export default function CryptoWidget() {
   const [coins, setCoins] = useState([]);
@@ -211,8 +212,8 @@ export default function CryptoWidget() {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <img
-              src='https://www.coingecko.com/favicon-32x32.png'
+            <Image
+              src='/images/coingecko_favicon-32x32.png'
               alt='CoinGecko'
               width={16}
               height={16}
