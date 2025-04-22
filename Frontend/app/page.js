@@ -59,18 +59,17 @@ export default function Home() {
             >
               <MainSearchBar />
               <AiChatWidget />
-              {/* 3 components */}
+              {/* 2 components */}
               <Box
                 flexDirection='row'
                 display='flex'
-                justifyContent='space-between'
+                justifyContent='space-evenly'
                 sx={{
                   m: 0,
                 }}
               >
                 <LinksComponent />
                 <TodoWidget />
-                <NotesWidget />
               </Box>
             </Box>
           </Grid>
