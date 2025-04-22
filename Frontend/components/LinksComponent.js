@@ -1,12 +1,13 @@
 import { Card, CardContent, Typography } from '@mui/material';
+import Link from 'next/link';
 
 export default function LinksWidget() {
   return (
     <Card
       sx={{
         mb: 2,
-        height: 250,
-        width: 250,
+        height: 300,
+        width: 270,
       }}
     >
       <Typography component='h4' variant='body1' sx={{ m: 0, p: 2, pb: 1 }}>
@@ -25,11 +26,71 @@ export default function LinksWidget() {
             margin: 0,
           }}
         >
-          <li>Coingecko</li>
-          <li>Dexscreener</li>
-          <li>Youtube</li>
-          <li>Grok.ai</li>
-          <li>Github</li>
+          <li>
+            <Link
+              href='https://www.coingecko.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+              style={{
+                textDecoration: 'none',
+                color: 'inherit',
+              }}
+            >
+              Coingecko
+            </Link>
+          </li>
+          <li>
+            <Link
+              href='https://www.dexscreener.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+              style={{
+                textDecoration: 'none',
+                color: 'inherit',
+              }}
+            >
+              Dexscreener
+            </Link>
+          </li>
+          <li>
+            <Link
+              href='https://www.youtube.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+              style={{
+                textDecoration: 'none',
+                color: 'inherit',
+              }}
+            >
+              Youtube
+            </Link>
+          </li>
+          <li>
+            <Link
+              href='https://www.openai.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+              style={{
+                textDecoration: 'none',
+                color: 'inherit',
+              }}
+            >
+              OpenAI
+            </Link>
+          </li>
+          <li>
+            <Link
+              href='https://www.github.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+              style={{
+                textDecoration: 'none',
+                color: 'inherit',
+              }}
+            >
+              GitHub
+            </Link>
+          </li>
         </ul>
       </CardContent>
     </Card>
