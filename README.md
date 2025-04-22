@@ -10,23 +10,29 @@ Tech Stack
 * Database: PostgreSQL
 
 -------------------------------------
+It's Recommended to use Vscode and IntelliJ
+
+Requierments:
+Docker-desktop, running
 
 #### Getting Started
 
 1. Clone repository
+2. In IntelliJ, Open smarthub/backend folder and Run SmartHubApplication.
+Now the webserver and the docker container with the database should be running.
 
-2. Install all modules:
-
+3. In Vscode, Open smarthub/frontend folder and Install all modules:
 ```bash
 npm install
 
 ```
+3. Create or move .env.local file to smarthub/frontend
 
-3. Run local dev server:
 
+4. Run local dev server:
 ```bash
 npm run dev
 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see view the website.
