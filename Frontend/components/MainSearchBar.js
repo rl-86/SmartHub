@@ -27,12 +27,12 @@ export default function MainSearchBar() {
       >
         <TextField
           fullWidth
-          label='Sök på Google'
+          label='Google'
           variant='outlined'
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
-        <Button type='submit' variant='contained' sx={{ ml: 1 }}>
+        <Button type='submit' variant='outlined' sx={{ ml: 1 }}>
           <ArrowForwardIosIcon />
         </Button>
       </Box>

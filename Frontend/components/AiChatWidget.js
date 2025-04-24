@@ -64,14 +64,16 @@ export default function AiChatWidget() {
         <Box sx={{ display: 'flex', mb: 2 }}>
           <TextField
             fullWidth
-            placeholder='Ställ en fråga...'
+            label='Message ChatGPT'
+            multiline
+            variant='outlined'
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => e.key === 'Enter' && handleSend()}
           />
           <Button
             onClick={handleSend}
-            variant='contained'
+            variant='outlined'
             sx={{ ml: 1 }}
             disabled={loading}
           >
