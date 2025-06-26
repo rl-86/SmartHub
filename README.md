@@ -1,6 +1,6 @@
 ## Project "SmartHub"
 
-A web application that serves as an interactive browser start page.
+Smarthub is a web application that serves as an interactive single page dashboard.
 The goal is to provide the user with quick access to essential everyday tools: Google search, AI chat, news feed, cryptocurrency/stock prices, favorite links, quick notes, and a simple to-do list.
 
 Tech Stack
