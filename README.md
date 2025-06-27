@@ -24,6 +24,7 @@ Now the webserver and the docker container with the database should be running.
 
 3. In Vscode, Open smarthub/frontend folder and Install all modules:
 ```bash
+cd frontend
 npm install
 
 ```
