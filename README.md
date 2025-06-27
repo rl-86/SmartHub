@@ -1,7 +1,8 @@
 ## Project "SmartHub"
 
 Smarthub is a web application that serves as an interactive single page dashboard.
-The goal is to provide the user with quick access to essential everyday tools: Google search, AI chat, news feed, cryptocurrency/stock prices, favorite links, quick notes, and a simple to-do list.
+The goal is to provide the user with quick access to essential everyday tools like: Google search, AI chat, news feed, cryptocurrency/stock prices, favorite links, quick notes, and a simple to-do list.
+And more to come...
 
 Tech Stack
 * Frontend: Next.js
